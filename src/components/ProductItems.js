@@ -1,9 +1,7 @@
-import styled from "@emotion/styled"
+//import styled from "@emotion/styled";
+import styled from 'styled-components';
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from "@mui/icons-material";
 
-//import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from "@mui/icons-material"
-
-   
 
 const Info = styled.div`
   opacity: 0;
@@ -64,6 +62,7 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `;
+
 
 const ProductItems = ({ item }) => {
   return (
